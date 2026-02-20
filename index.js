@@ -1,6 +1,6 @@
-function mostrarSeccion(id) {
-    const secciones = document.querySelectorAll('.info-box');
-    secciones.forEach(sec => sec.style.display = "none");
+function mostrar(id) {
+    const cards = document.querySelectorAll(".card");
+    cards.forEach(card => card.style.display = "none");
 
     document.getElementById(id).style.display = "block";
 }
